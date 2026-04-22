@@ -26,7 +26,7 @@ dependencyResolutionManagement {
 Add the dependency to your module `build.gradle.kts`:
 ```kotlin
 dependencies {
-    implementation("com.github.mrshik-stack:kontezza-android-sdk:1.1.0")
+    implementation("com.github.mrshik-stack:kontezza-android-sdk:1.1.1")
 }
 ```
 
@@ -35,7 +35,7 @@ dependencies {
 Copy the `.aar` file to your `libs/` directory and add:
 ```kotlin
 dependencies {
-    implementation(files("libs/kontezza-sdk-1.1.0.aar"))
+    implementation(files("libs/kontezza-sdk-1.1.1.aar"))
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")

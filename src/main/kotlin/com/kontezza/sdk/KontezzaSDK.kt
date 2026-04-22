@@ -19,7 +19,7 @@ import java.net.URLEncoder
 class KontezzaSDK(private val config: KontezzaConfig) {
 
     companion object {
-        const val VERSION = "1.1.0"
+        const val VERSION = "1.1.1"
         private const val CAMPAIGN_CACHE_MS = 30_000L
     }
 
