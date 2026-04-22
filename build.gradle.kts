@@ -31,7 +31,7 @@ android {
 
 dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1")
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
 }
 
@@ -42,7 +42,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.mrshik-stack"
                 artifactId = "kontezza-android-sdk"
-                version = (project.findProperty("version") as String?) ?: "1.1.2"
+                version = (project.findProperty("version") as String?) ?: "1.1.3"
             }
         }
     }
